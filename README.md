@@ -1,16 +1,41 @@
-# toku
 
-A new Flutter project.
+# Toku
 
-## Getting Started
+**Toku** is an educational Flutter app designed to help users learn basic Japanese through categorized vocabulary and audio pronunciation. It provides Japanese words and phrases with both English and Japanese translations, along with native pronunciation audio.
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🎧 Native Japanese audio pronunciation
+- 🇯🇵 Words and phrases in both Japanese and English
+- 📚 Organized categories: Numbers, Family Members, Colors, and Phrases
+- 🔙 Smooth navigation with back functionality
+- 📱 Clean and user-friendly UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📂 Categories
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Numbers** — Learn to count in Japanese
+- **Family Members** — Common terms for relatives
+- **Colors** — Basic color vocabulary
+- **Phrases** — Everyday useful expressions
+
+## 🛠 Built With
+
+- **Flutter**
+- **audioplayers** package
+
+## 🚀 Getting Started
+
+Make sure Flutter is installed, then run:
+
+```bash
+flutter pub get
+flutter run
+```
+
+## 📷 Screenshots
+
+*(Add screenshots of your app here)*
+
+## 📄 License
+
+This project is open source and free to use for personal or educational purposes.
