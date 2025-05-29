@@ -34,7 +34,12 @@ flutter run
 
 ## 📷 Screenshots
 
-*(Add screenshots of your app here)*
+*(
+![Home Page](assets/screenshots/homepage.jpeg)
+![Colors Page](assets/screenshots/colorspage.jpeg)
+![Colors Page](assets/screenshots/phrasespage.jpeg)
+
+)*
 
 ## 📄 License
 
