@@ -34,12 +34,12 @@ flutter run
 
 ## 📷 Screenshots
 
-*(
-![Home Page](assets/screenshots/homepage.jpeg)
-![Colors Page](assets/screenshots/colorspage.jpeg)
-![Colors Page](assets/screenshots/phrasespage.jpeg)
+<p float="left">
+  <img src="assets/screenshots/homepage.jpeg" width="30%" />
+  <img src="assets/screenshots/colorspage.jpeg" width="30%" />
+  <img src="assets/screenshots/phrasespage.jpeg" width="30%" />
+</p>
 
-)*
 
 ## 📄 License
 
