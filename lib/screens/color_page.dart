@@ -60,9 +60,14 @@ class ColorPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Icon(
-          Icons.arrow_back,
-          color: Colors.white,
+        leading: GestureDetector(
+          onTap: () {
+            Navigator.pop(context);
+          },
+          child: Icon(
+            Icons.arrow_back,
+            color: Colors.white,
+          ),
         ),
         backgroundColor: Colors.brown,
         title: Text('Color',style: TextStyle(

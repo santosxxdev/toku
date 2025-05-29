@@ -30,10 +30,7 @@ class HomePage extends StatelessWidget {
             clickTab: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return NumbersPage();
-                  },
+                MaterialPageRoute(builder: (context) => NumbersPage(),
                 ),
               );
             },
@@ -42,22 +39,30 @@ class HomePage extends StatelessWidget {
             nameCatagory: 'Family Members',
             colorCatagory: Colors.green,
             clickTab: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => FamilyPage()));
+              Navigator.push(context,
+                MaterialPageRoute(builder: (context) => FamilyPage(),
+                ),
+              );
             },
           ),
           CatagoryItem(
             nameCatagory: 'Colors',
             colorCatagory: Colors.deepPurpleAccent,
             clickTab: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => ColorPage(),));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ColorPage(),
+                  ),
+              );
             },
           ),
           CatagoryItem(
             nameCatagory: 'Phrases',
             colorCatagory: Colors.blue,
             clickTab: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => PhrasesPage(),));
-
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => PhrasesPage(),
+                  ),
+              );
             },
           ),
         ],
